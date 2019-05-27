@@ -1,0 +1,35 @@
+////
+/// @group button
+////
+table.button table a {
+	letter-spacing: 1px;
+}
+
+
+////
+/// @group alignment
+////
+a.text-center {
+  text-align: center;
+}
+
+table.text-justify,
+td.text-justify,
+h1.text-justify,
+h2.text-justify,
+h3.text-justify,
+h4.text-justify,
+h5.text-justify,
+h6.text-justify,
+p.text-justify,
+span.text-justify {
+  text-align: justify;
+}
+
+
+////
+/// @group button
+////
+table.button {
+	table-layout: fixed;
+}

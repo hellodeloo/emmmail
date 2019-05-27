@@ -1,0 +1,53 @@
+{
+	"name": "emmmail",
+	"version": "1.0.0",
+	"description": "Starter Emmmail",
+	"main": "gulpfile.babel.js",
+	"scripts": {
+		"dev": "gulp dev",
+		"deploy": "gulp deploy",
+		"send": "gulp send",
+		"build": "gulp build"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/hellodeloo/emmmail.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/hellodeloo/emmmail/issues"
+	},
+	"homepage": "https://github.com/hellodeloo/emmmail#readme",
+	"devDependencies": {
+		"@babel/core": "^7",
+		"babel-preset-env": "^1.7.0",
+		"babel-register": "^6.26.0",
+		"browser-sync": "^2.26.5",
+		"del": "^4.1.1",
+		"eslint": "^5.16.0",
+		"eslint-config-standard": "^12.0.0",
+		"eslint-plugin-import": "^2.17.3",
+		"eslint-plugin-node": "^9.1.0",
+		"eslint-plugin-promise": "^4.1.1",
+		"eslint-plugin-standard": "^4.0.0",
+		"gulp": "github:gulpjs/gulp#4.0",
+		"gulp-autoprefixer": "^6.1.0",
+		"gulp-babel": "^8.0.0",
+		"gulp-clean-css": "^4.2.0",
+		"gulp-imagemin": "^5.0.3",
+		"gulp-inline-css": "^3.3.1",
+		"gulp-inline-source": "^4.0.0",
+		"gulp-mail": "^0.3.0",
+		"gulp-notify": "^3.2.0",
+		"gulp-plumber": "^1.2.1",
+		"gulp-replace": "^1.0.0",
+		"gulp-sass": "^4.0.2",
+		"gulp-sourcemaps": "^2.6.5",
+		"gulp-zip": "^4.2.0",
+		"vinyl-ftp": "^0.6.1"
+	},
+	"dependencies": {
+		"gulp-rename": "^1.4.0"
+	}
+}

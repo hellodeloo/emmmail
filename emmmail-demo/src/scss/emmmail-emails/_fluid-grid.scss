@@ -1,0 +1,26 @@
+////
+/// @group fluid-grid
+////
+
+/// The highest number of `.fluid-up-x` classes available when using the block grid CSS.
+/// @type Number
+.fluid-grid {
+	display: table;
+	position: relative;
+	width: 100%;
+	max-width: $global-width;
+}
+
+// Sizing classes
+@for $i from 2 through $block-grid-max {
+	.fluid-up-#{$i} td {
+		width: 100% / $i;
+	}
+}
+
+
+@media only screen and (max-width: #{$global-breakpoint}) {
+	 table.body .fluid-grid td {
+		width: 100% !important;
+	}
+}

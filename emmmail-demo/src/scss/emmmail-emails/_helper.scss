@@ -1,0 +1,126 @@
+img.image-fluid {
+  height: auto;
+  max-width: $global-width;
+  width: 100%;
+}
+
+img.image-inline {
+  width: auto;
+  max-width: 100%;
+  float: none;
+  clear: none;
+  display: inline;
+  vertical-align: baseline;
+}
+
+img.image-block {
+  width: inherit;
+  height: inherit;
+  max-width: inherit;
+  clear: none;
+  display: block;
+}
+
+em,
+.em,
+p.em {
+  font-style: normal;
+  font-weight: bold;
+}
+
+small,
+.small,
+p.small {
+  font-size: $small-font-size;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 110%;
+}
+
+.primary,
+p.primary,
+span.primary,
+strong.primary,
+em.primary,
+a.primary,
+a.primary:hover,
+a.primary:active,
+a.primary:visited h1.primary,
+h2.primary,
+h3.primary,
+h4.primary,
+h5.primary,
+h6.primary {
+  color: $primary-color;
+}
+
+.secondary,
+p.secondary,
+span.secondary,
+strong.secondary,
+em.secondary,
+a.secondary,
+a.secondary:hover,
+a.secondary:active,
+a.secondary:visited h1.secondary,
+h2.secondary,
+h3.secondary,
+h4.secondary,
+h5.secondary,
+h6.secondary {
+  color: $secondary-color;
+}
+
+.uppercase,
+p.uppercase,
+span.uppercase,
+strong.uppercase,
+em.uppercase,
+a.uppercase,
+a.uppercase:hover,
+a.uppercase:active,
+a.uppercase:visited {
+  text-transform: uppercase;
+}
+
+.no-wordwrap,
+p.no-wordwrap,
+span.no-wordwrap,
+strong.no-wordwrap,
+em.no-wordwrap,
+a.no-wordwrap,
+a.no-wordwrap:hover,
+a.no-wordwrap:active,
+a.no-wordwrap:visited {
+  word-wrap: normal;
+  hyphens: none;
+}
+
+.no-marginbottom,
+p.no-marginbottom,
+span.no-marginbottom,
+strong.no-marginbottom,
+em.no-marginbottom,
+a.no-marginbottom {
+  margin-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+/*  Media Queries for Small */
+@media only screen and (max-width: #{$global-breakpoint}) {
+  table.body img.image-fluid {
+    height: auto !important;
+    max-width: $global-width !important;
+    width: 100% !important;
+  }
+
+  table.body .hide-for-small {
+    display: none !important;
+  }
+}
