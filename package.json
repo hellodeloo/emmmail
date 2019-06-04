@@ -35,7 +35,7 @@
 		"gulp-autoprefixer": "^6.1.0",
 		"gulp-babel": "^8.0.0",
 		"gulp-clean-css": "^4.2.0",
-		"gulp-imagemin": "^5.0.3",
+		"gulp-imagemin": "^6.0.0",
 		"gulp-inline-css": "^3.3.1",
 		"gulp-inline-source": "^4.0.0",
 		"gulp-mail": "^0.3.0",
@@ -44,7 +44,7 @@
 		"gulp-replace": "^1.0.0",
 		"gulp-sass": "^4.0.2",
 		"gulp-sourcemaps": "^2.6.5",
-		"gulp-zip": "^4.2.0",
+		"gulp-zip": "^5.0.0",
 		"vinyl-ftp": "^0.6.1"
 	},
 	"dependencies": {
