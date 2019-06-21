@@ -2,7 +2,7 @@
 
 **Emmmail** est un starter-kit qui aide à l'intégration d'emails responsifs.
 
-Il est construit sur **[Foundation for Emails 2.2.0](http://foundation.zurb.com/emails.html)** et utilise **[Gulp 4](http://gulpjs.com/)**, **[Babel](https://babeljs.io/)**, **ES6** et **[Sass](http://sass-lang.com/)**.
+Il est construit sur **[Foundation for Emails 2.2.0](http://foundation.zurb.com/emails.html)** et utilise **[Gulp 4](http://gulpjs.com/)**, **[Babel](https://babeljs.io/)** et **[Sass](http://sass-lang.com/)**.
 
 ## Installation
 
