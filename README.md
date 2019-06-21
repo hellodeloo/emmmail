@@ -17,9 +17,9 @@ yarn install
 
 ## Utilisation
 
-**Personnalisez** les variables de `folder`, `email`, `conn`, `smtp` du `gulpfile.babel.js`
+**Renommez** `config-sample.js` en `config.js` puis **personnalisez** les variables de `folder`, `email`, `conn`, `smtp`.
 
-**Développez** dans le dossier "src" et lancer la commande `gulp dev` qui se chargera de:
+**Développez** dans le dossier "src" et lancer la commande `yarn dev` qui se chargera de:
 
 - Lancer le BrowserSync
 - Compiler le scss
@@ -27,8 +27,8 @@ yarn install
 - Inliner le css
 - Placer l'ensemble dans le répertoire "dist"
 
-**Hébergez** sur ftp avec `gulp deploy`
+**Hébergez** sur ftp avec `yarn deploy`
 
-**Envoyez** un email test avec `gulp send`
+**Envoyez** un email test avec `yarn send`
 
-Puis **générez le livrable** zippé avec `gulp build`
+Puis **générez le livrable** zippé avec `yarn build`
