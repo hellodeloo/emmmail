@@ -1,10 +1,18 @@
 ////
 /// @group button
 ////
-table.button table a {
-	letter-spacing: 1px;
-}
+table.button {
+  p,
+  table.body,
+  td,
+  th {
+    line-height: 100%;
+  }
 
+  table a {
+    letter-spacing: 1px;
+  }
+}
 
 ////
 /// @group alignment
@@ -26,10 +34,9 @@ span.text-justify {
   text-align: justify;
 }
 
-
 ////
 /// @group button
 ////
 table.button {
-	table-layout: fixed;
+  table-layout: fixed;
 }
